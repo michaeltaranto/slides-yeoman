@@ -8,7 +8,7 @@ body {
   color: #5e5e5e;
 }
 .bespoke-parent {
-  -webkit-perspective: 600;
+  perspective: 600;
   position: absolute;
   top: 0;
   right: 0;
@@ -24,29 +24,29 @@ section {
   margin-left: -450px;
   margin-top: -300px;
   border-left: 10px solid #e00;
-  -webkit-transform: none;
+  transform: none;
   opacity: 0;
   box-shadow: 0 0 20px rgba(0,0,0,0.8);
 }
 section.bespoke-slide {
-  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
   opacity: 0;
 }
 section.bespoke-active {
   opacity: 1;
-  -webkit-transition-delay: .3s;
+  transition-delay: .3s;
   z-index: 1;
 }
 section.bespoke-inactive {
   opacity: 0;
 }
 section.bespoke-before {
-  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
   opacity: 0;
   z-index: 2;
 }
 section.bespoke-after {
-  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
 }
 .slidebg {
   position: absolute;
@@ -100,7 +100,6 @@ section:nth-child(16) img.yeoman {
   top: 190px;
 }
 section img.flip {
-  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 img.greenfields {
