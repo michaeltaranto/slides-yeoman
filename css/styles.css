@@ -107,10 +107,40 @@ img.greenfields {
   bottom: 85px;
   margin-right: 40px;
 }
-section img.ascii {
-  height: 560px;
-  top: 20px;
-  right: 20px;
+img.yo {
+  width: 150px;
+  margin-top: 20px;
+  margin-right: 240px;
+}
+img.node {
+  width: 190px;
+  margin-top: 390px;
+  margin-right: 310px;
+}
+img.ruby {
+  width: 70px;
+  margin-top: 420px;
+  margin-right: 190px;
+}
+img.compass {
+  width: 100px;
+  margin-top: 340px;
+  margin-right: 60px;
+}
+img.npm {
+  width: 170px;
+  margin-top: 280px;
+  margin-right: 150px;
+}
+img.grunt {
+  width: 100px;
+  margin-top: 190px;
+  margin-right: 370px;
+}
+img.bower {
+  width: 130px;
+  margin-top: 90px;
+  margin-right: 70px;
 }
 .svg {
   position: absolute;
